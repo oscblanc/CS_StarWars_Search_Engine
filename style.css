@@ -12,7 +12,7 @@
 body{
     background: var(--background-color);
     font-family: sans-serif;
-    color: whitesmoke;
+    color: rgb(252, 252, 46);
     font-size: 25px;
     display: flex;
     flex-direction: column;
@@ -81,4 +81,19 @@ body{
 }
 #container{
     padding: 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap:50px;
+    margin: 50px auto;
+    max-width: 1240px;
+    padding: 20px;
+}
+.Photos{
+    width:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
 }
