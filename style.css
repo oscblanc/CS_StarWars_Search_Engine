@@ -23,17 +23,6 @@ body{
 .pageTitle{
     padding: 40px;
 }
-/* button {
-    font-size: 20px;
-    border: none;
-    background: radial-gradient(circle, rgba(254,244,36,1) 0%, rgba(255,255,255,1) 100%);
-    height: 40px;
-    width: 100px;
-    margin-bottom: 70px;
-    outline: none;
-    font-size: 25px;
-    margin-top: 15px;
-} */
 .searchContainer{
     width: 100%;
     max-width: 300px;
@@ -66,17 +55,23 @@ body{
 .searchContainer button img{
     width: 25px;
 }
+.searchContainer button:hover {
+    box-shadow: 0 4px 4px 0 whitesmoke;
+}
 .menuContainer{
     width: 350px;
     background-color: rgba(243, 243, 243, 0.228);
     padding: 10px;
     border-radius: 20px;
 }
+.menuContainer:hover {
+    box-shadow: 0 8px 16px 0 whitesmoke;
+}
 .cardText{
     background-color: none;
     font-weight: bold;
     width: 100%;
-    color: black;
+    color: rgb(255, 255, 233);
     margin-top: 20px;
 }
 #container{
@@ -91,7 +86,7 @@ body{
     padding: 20px;
 }
 .Photos{
-    width:150px;
+    max-height:200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
